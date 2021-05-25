@@ -164,24 +164,14 @@ h1 {
 /* ********************
 _____ABOUT PAGE________
 *********************** */
-
 .about_body {
-    background-image: url(./images/About/sunset.JPG);
-    padding-bottom: 100%; 
-    background-repeat: no-repeat;
-    background-size: cover;
+    background-color: black;
+    padding-bottom: 30%; 
 }
-
-// .about-header { 
-//     background-image: url(./images/About/sunset.JPG); 
-//     padding-bottom: 100%; 
-//     background-repeat: no-repeat;
-//     background-size: cover; 
-// }
 
 #main-about {
     #main-container {
-        background-color: rgba(255, 255, 255, 0.199); 
+        background-color: rgb(255, 255, 255); 
         margin-top: 10%; 
         border-radius: 35% 5% !important; 
 
@@ -190,7 +180,7 @@ _____ABOUT PAGE________
                 width: 500px;
             }
             .about-text {
-                color: #feeafa;
+                color: #6d6c6b;
                 letter-spacing: .05rem;
                 text-align: justify;
                 padding: 0 40px; 
