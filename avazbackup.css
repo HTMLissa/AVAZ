@@ -1,0 +1,163 @@
+body {
+    font-family: 'Raleway', sans-serif;
+    overflow-x: hidden;
+}
+
+
+/* Navbar */
+.navbar {
+    background-color: transparent !important; 
+    font-weight: 500; 
+    letter-spacing: 2px; 
+    text-transform: uppercase; 
+}
+
+.nav-colored {
+    /* background: linear-gradient(330deg, #3370cc, rgb(255, 81, 0)); */
+    background: black !important; 
+    opacity: 0.94; 
+    padding-bottom: 20px; 
+}
+
+#logo-header {
+    width: 50%; 
+    position: relative;
+    top: 7px; 
+    transition: .5s all ease-in-out; 
+}
+
+/* AVAZ-SINNER */
+.video-nav {
+    position: relative;
+    width: 100%;
+    background-color: black; 
+    overflow: hidden;  
+}
+
+.video-nav video {
+    width: 100%; 
+    height: 100%; 
+}
+
+/* Main */
+main {
+    background-color: black; 
+    padding-bottom: 30%; 
+}
+
+/* News */
+.news {
+    /* background-color: rgb(233, 226, 188);  */
+    background-color: white; 
+    padding-bottom: 30%; 
+    position: relative; 
+    top: -55px; 
+    transition: .4s all ease-in-out;
+}
+
+h1 {
+    text-transform: uppercase; 
+    font-weight: 600; 
+    padding-top: 5%; 
+    letter-spacing: 1px; 
+    transition: .5s all ease-in-out; 
+}
+
+.news hr {
+    width: 20%;
+    border: 1px solid rgb(230, 223, 223);  
+}
+
+.sinnerRed {
+    color: #d62828; 
+}
+
+.tridents {
+    width: 2rem; 
+    transition: .6s all ease-in-out; 
+}
+
+.newsHeader {
+    font-size: 2rem; 
+    padding: 20px 0;
+    letter-spacing: 1px;
+    transition: .6s all ease-in-out !important;   
+}
+
+.news iframe {
+    width: 70%;
+    height: 350px;
+    margin-bottom: 30px;  
+    transition: .7s all ease-in-out !important; 
+}
+
+.flexCenter {
+    display: flex;
+    flex-direction: column; 
+    justify-content: center;
+    align-items: center;
+}
+
+.lateNightLove span {
+    color: #003049; 
+}
+
+/* Media Queries */
+/* ------ Small */
+@media(max-width: 500px) {
+    
+}
+
+@media(max-width: 657px) {
+    .navbar {
+        background-color: black !important; 
+        padding-bottom: 20px; 
+    }
+
+    .video-nav video {
+        margin-top: 50px; 
+    }
+}
+
+/* ------- Medium */
+@media(max-width: 768px) {
+    h1 {
+        font-size: 25px; 
+    }
+
+    .newsHeader {
+        font-size: 20px;
+    }
+
+    .tridents {
+        width: 1.5rem; 
+    }
+}
+
+@media(max-width: 977px) {
+    .news {
+        top: -30px; 
+    }
+}
+
+/* ----- Large */
+@media(max-width: 992px) {
+    .news iframe {
+        width: 80%;
+        height: 300px;  
+    }
+}
+
+
+@media(max-width: 1071px) {
+    .navbar-brand {
+        width: 200px;  
+    }
+}
+
+@media(max-width: 1203px) {
+    #logo-header {
+        margin-left: 10%; 
+    }
+}
+
