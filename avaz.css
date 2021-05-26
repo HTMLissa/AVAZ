@@ -203,4 +203,25 @@ _____MUSIC PAGE________
 .music_body {
   background-color: black;
 }
+
+.content-box {
+  margin-top: 15%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+#listen-box {
+  margin: auto;
+  border-radius: 5px;
+  width: 500px;
+}
+
+#follow-btn {
+  position: absolute;
+  right: 0;
+}
 /*# sourceMappingURL=avaz.css.map */
