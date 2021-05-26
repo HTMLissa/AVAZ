@@ -196,4 +196,11 @@ _____ABOUT PAGE________
   text-transform: uppercase;
   letter-spacing: 1px;
 }
+
+/* ********************
+_____MUSIC PAGE________
+*********************** */
+.music_body {
+  background-color: black;
+}
 /*# sourceMappingURL=avaz.css.map */
