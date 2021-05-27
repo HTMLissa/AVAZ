@@ -165,7 +165,9 @@ h1 {
 _____ABOUT PAGE________
 *********************** */
 .about_body {
-    background-color: black;
+    background-image: url('https://images.unsplash.com/photo-1534364432722-54585249d766?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=668&q=80');
+    background-size: cover;
+    background-repeat: no-repeat;
     padding-bottom: 30%; 
 }
 
@@ -199,7 +201,10 @@ _____MUSIC PAGE________
 *********************** */
 
 .music_body {
-    background-color: black; 
+    // background-image: url('images/About/sunset.JPG'); 
+    background-image: url('https://images.unsplash.com/photo-1459305272254-33a7d593a851?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=2850&q=80');
+    background-size: cover;
+    background-repeat: no-repeat;
 }
 
 .content-box {
@@ -216,5 +221,5 @@ _____MUSIC PAGE________
 
 #follow-btn {
     position: absolute;
-    right: 0; 
+    left: 10%; 
 }
