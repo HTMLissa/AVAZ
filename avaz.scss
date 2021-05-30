@@ -191,10 +191,18 @@ _____ABOUT PAGE________
                     text-transform: uppercase;
                     letter-spacing: 1px; 
                 }
+                .soundwave-box {
+                    display: flex;
+                    justify-content: center;
+                    .soundwave-icon {
+                        width: 15%; 
+                    }
+                }
             }
         }
     }
 }
+
 
 /* ********************
 _____MUSIC PAGE________

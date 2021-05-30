@@ -199,6 +199,19 @@ _____ABOUT PAGE________
   letter-spacing: 1px;
 }
 
+#main-about #main-container .about-row .about-text .soundwave-box {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+#main-about #main-container .about-row .about-text .soundwave-box .soundwave-icon {
+  width: 15%;
+}
+
 /* ********************
 _____MUSIC PAGE________
 *********************** */
