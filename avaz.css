@@ -1,6 +1,7 @@
 body {
   font-family: "Raleway", sans-serif;
   overflow-x: hidden;
+  background-color: black;
 }
 
 /* Navbar */
@@ -42,14 +43,14 @@ body {
 /* Main */
 #main-index {
   background-color: black;
-  padding-bottom: 30%;
+  padding-bottom: 50px;
 }
 
 /* News */
 .news {
   /* background-color: rgb(233, 226, 188);  */
   background-color: white;
-  padding-bottom: 30%;
+  padding-bottom: 50px;
   position: relative;
   top: -55px;
   -webkit-transition: 0.4s all ease-in-out;
@@ -174,7 +175,6 @@ _____ABOUT PAGE________
   background-image: url("https://images.unsplash.com/photo-1534364432722-54585249d766?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=668&q=80");
   background-size: cover;
   background-repeat: no-repeat;
-  padding-bottom: 30%;
 }
 
 #main-about #main-container {
@@ -243,10 +243,9 @@ _____MUSIC PAGE________
 }
 
 .footer {
-  border: 1px solid red;
-  padding-bottom: 200px;
   background-color: black;
   margin-top: 50px;
+  padding-bottom: 50px;
 }
 
 .footer .links-container p {
@@ -262,9 +261,13 @@ _____MUSIC PAGE________
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
+  width: 100%;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
 }
 
 .footer .footer-social-media a {
-  color: grey;
+  color: white;
 }
 /*# sourceMappingURL=avaz.css.map */
