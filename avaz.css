@@ -1,5 +1,5 @@
 body {
-  font-family: 'Raleway', sans-serif;
+  font-family: "Raleway", sans-serif;
   overflow-x: hidden;
 }
 
@@ -22,8 +22,8 @@ body {
   width: 50%;
   position: relative;
   top: 7px;
-  -webkit-transition: .5s all ease-in-out;
-  transition: .5s all ease-in-out;
+  -webkit-transition: 0.5s all ease-in-out;
+  transition: 0.5s all ease-in-out;
 }
 
 /* AVAZ-SINNER */
@@ -52,8 +52,8 @@ body {
   padding-bottom: 30%;
   position: relative;
   top: -55px;
-  -webkit-transition: .4s all ease-in-out;
-  transition: .4s all ease-in-out;
+  -webkit-transition: 0.4s all ease-in-out;
+  transition: 0.4s all ease-in-out;
 }
 
 h1 {
@@ -61,8 +61,8 @@ h1 {
   font-weight: 600;
   padding-top: 5%;
   letter-spacing: 1px;
-  -webkit-transition: .5s all ease-in-out;
-  transition: .5s all ease-in-out;
+  -webkit-transition: 0.5s all ease-in-out;
+  transition: 0.5s all ease-in-out;
 }
 
 .news hr {
@@ -76,24 +76,24 @@ h1 {
 
 .tridents {
   width: 2rem;
-  -webkit-transition: .6s all ease-in-out;
-  transition: .6s all ease-in-out;
+  -webkit-transition: 0.6s all ease-in-out;
+  transition: 0.6s all ease-in-out;
 }
 
 .newsHeader {
   font-size: 2rem;
   padding: 20px 0;
   letter-spacing: 1px;
-  -webkit-transition: .6s all ease-in-out !important;
-  transition: .6s all ease-in-out !important;
+  -webkit-transition: 0.6s all ease-in-out !important;
+  transition: 0.6s all ease-in-out !important;
 }
 
 .news iframe {
   width: 70%;
   height: 350px;
   margin-bottom: 30px;
-  -webkit-transition: .7s all ease-in-out !important;
-  transition: .7s all ease-in-out !important;
+  -webkit-transition: 0.7s all ease-in-out !important;
+  transition: 0.7s all ease-in-out !important;
 }
 
 .flexCenter {
@@ -189,7 +189,7 @@ _____ABOUT PAGE________
 
 #main-about #main-container .about-row .about-text {
   color: #6d6c6b;
-  letter-spacing: .05rem;
+  letter-spacing: 0.05rem;
   text-align: justify;
   padding: 0 40px;
 }
