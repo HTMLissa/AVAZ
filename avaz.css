@@ -119,10 +119,15 @@ h1 {
 
 /* Media Queries */
 /* ------ Small */
+@media (max-width: 500px) {
+  .video-nav video {
+    margin-bottom: 15px;
+  }
+}
+
 @media (max-width: 657px) {
   .navbar {
     background-color: black !important;
-    padding-bottom: 20px;
   }
   .video-nav video {
     margin-top: 50px;
@@ -153,6 +158,9 @@ h1 {
   .news iframe {
     width: 80%;
     height: 300px;
+  }
+  nav a img {
+    margin-bottom: 15px;
   }
 }
 
