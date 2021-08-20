@@ -220,6 +220,39 @@ _____ABOUT PAGE________
   width: 15%;
 }
 
+@media (max-width: 768px) {
+  #main-container {
+    background-color: transparent !important;
+  }
+  #main-container img {
+    margin-left: 0px;
+  }
+}
+
+@media (max-width: 992px) {
+  #main-container img {
+    margin-left: 50px;
+  }
+}
+
+@media (max-width: 1220px) {
+  #main-container .about-row {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+  }
+  #main-container .about-row .about-text h2 {
+    padding-top: 50px;
+  }
+  #main-container .about-row .about-text .soundwave-icon {
+    padding-bottom: 10px;
+  }
+}
+
 /* ********************
 _____MUSIC PAGE________
 *********************** */

@@ -205,6 +205,48 @@ _____ABOUT PAGE________
   }
 }
 
+// MEDIA QUERIES
+
+// Medium
+
+@media (max-width: 768px) {
+  #main-container {
+    background-color: transparent !important;
+    img {
+      margin-left: 0px;
+    }
+  }
+}
+
+// Large
+
+@media (max-width: 992px) {
+  #main-container {
+    // background-color: transparent !important;
+    img {
+      margin-left: 50px;
+    }
+  }
+}
+
+@media (max-width: 1220px) {
+  #main-container {
+    .about-row {
+      display: flex;
+      flex-direction: column;
+
+      .about-text {
+        h2 {
+          padding-top: 50px;
+        }
+        .soundwave-icon {
+          padding-bottom: 10px;
+        }
+      }
+    }
+  }
+}
+
 /* ********************
 _____MUSIC PAGE________
 *********************** */
