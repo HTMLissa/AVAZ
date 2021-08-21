@@ -209,27 +209,25 @@ _____ABOUT PAGE________
 
 // Medium
 
-@media (max-width: 768px) {
+@media only screen and (max-width: 768px) {
   #main-container {
-    // background-color: transparent !important;
     img {
-      margin-left: 0px;
+      margin-left: -19px;
     }
   }
 }
 
 // Large
 
-@media (max-width: 992px) {
+@media only screen and (max-width: 992px) and (min-width: 769px) {
   #main-container {
-    // background-color: transparent !important;
     img {
       margin-left: 50px;
     }
   }
 }
 
-@media (max-width: 1220px) {
+@media only screen and (max-width: 1220px) {
   #main-container {
     .about-row {
       display: flex;
