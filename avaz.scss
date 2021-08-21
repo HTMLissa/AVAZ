@@ -209,17 +209,6 @@ _____ABOUT PAGE________
 
 // Small
 
-@media only screen and (max-width: 375px) {
-  #main-container {
-    .about-row {
-      .rounded {
-        display: block;
-        width: 375px !important;
-      }
-    }
-  }
-}
-
 @media only screen and (max-width: 536px) {
   .about_body {
     background-image: none;
@@ -228,6 +217,7 @@ _____ABOUT PAGE________
 
   #main-container {
     padding: 0px;
+    box-shadow: none !important;
     .rounded {
       margin-top: 50px;
       margin-left: 0px;
@@ -240,8 +230,8 @@ _____ABOUT PAGE________
 
 @media only screen and (max-width: 768px) {
   #main-container {
-    img {
-      margin-left: -19px;
+    .rounded {
+      width: inherit !important;
     }
   }
 }
@@ -250,7 +240,7 @@ _____ABOUT PAGE________
 
 @media only screen and (max-width: 992px) and (min-width: 769px) {
   #main-container {
-    img {
+    .rounded {
       margin-left: 50px;
     }
   }
