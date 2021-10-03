@@ -280,9 +280,20 @@ _____ABOUT PAGE________
 /* ********************
 _____MUSIC PAGE________
 *********************** */
-#oceanwaves-video {
-  width: 100%;
-  opacity: 0.8;
+.music_body {
+  background-image: url("images/Music/music-content-soon.png");
+  background-repeat: repeat;
+  background-size: cover;
+  background-position: center;
+  padding-top: 50%;
+}
+
+.music_body h1 {
+  font-family: "Playfair Display", serif;
+  color: white;
+  text-align: center;
+  font-size: 3em;
+  letter-spacing: 0.5rem;
 }
 
 #main-music {
@@ -304,51 +315,39 @@ _____MUSIC PAGE________
   border-radius: 5px;
 }
 
-@media only screen and (max-width: 500px) {
-  .music_body {
-    background-image: url("images/Music/music-content-soon.png");
-    background-repeat: no-repeat;
-    background-size: cover;
-    background-position: center;
-    padding-top: 50%;
+@media only screen and (max-width: 450px) {
+  #main-music {
+    position: absolute;
+    top: 30% !important;
+    left: 50%;
   }
+  .music_body h1 {
+    margin-top: 100px;
+    font-size: 2rem;
+  }
+}
+
+@media only screen and (max-width: 500px) {
   #footer-music {
     background-color: transparent;
-    padding-top: 100%;
   }
-  #oceanwaves-video {
-    display: none;
+  .music_body h1 {
+    padding-top: 130px;
+  }
+  .music_body .navbar {
+    background-color: transparent !important;
+    position: absolute !important;
+  }
+}
+
+@media only screen and (max-width: 1024px) {
+  #footer-music {
+    background-color: transparent;
   }
   #main-music {
-    margin-top: 80%;
-  }
-}
-
-@media only screen and (max-width: 644px) {
-  #oceanwaves-video {
-    margin-top: 50px;
-  }
-  #main-music {
-    top: 40%;
-  }
-}
-
-@media only screen and (max-width: 776px) {
-  #main-music {
-    top: 40%;
-  }
-}
-
-@media only screen and (max-width: 1100px) {
-  #oceanwaves-video {
-    width: 90%;
-    height: 120%;
-  }
-}
-
-@media only screen and (max-width: 1270px) {
-  #oceanwaves-video {
-    width: 115%;
+    position: absolute;
+    top: 25%;
+    left: 50%;
   }
 }
 
