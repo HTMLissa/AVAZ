@@ -270,10 +270,17 @@ _____ABOUT PAGE________
 /* ********************
 _____MUSIC PAGE________
 *********************** */
+#oceanwaves-video {
+  width: 100%;
+  opacity: 0.8;
+}
+
 #main-music {
   position: absolute;
-  top: 35%;
-  left: 75%;
+  top: 50%;
+  left: 50%;
+  -webkit-transform: translate(-50%, -50%);
+          transform: translate(-50%, -50%);
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -281,6 +288,47 @@ _____MUSIC PAGE________
   -webkit-box-direction: reverse;
       -ms-flex-direction: column-reverse;
           flex-direction: column-reverse;
+}
+
+#main-music #listen-box {
+  border-radius: 5px;
+}
+
+@media only screen and (max-width: 500px) {
+  #oceanwaves-video {
+    opacity: 0.4;
+  }
+  #main-music {
+    top: 30%;
+  }
+}
+
+@media only screen and (max-width: 644px) {
+  #oceanwaves-video {
+    margin-top: 50px;
+  }
+  #main-music {
+    top: 40%;
+  }
+}
+
+@media only screen and (max-width: 776px) {
+  #main-music {
+    top: 40%;
+  }
+}
+
+@media only screen and (max-width: 1100px) {
+  #oceanwaves-video {
+    width: 90%;
+    height: 120%;
+  }
+}
+
+@media only screen and (max-width: 1270px) {
+  #oceanwaves-video {
+    width: 115%;
+  }
 }
 
 .footer {
