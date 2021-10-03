@@ -235,6 +235,16 @@ _____ABOUT PAGE________
     margin-left: 0px;
     width: 100% !important;
   }
+  #row1 {
+    padding: 0 !important;
+    width: 100%;
+    margin: 0 auto;
+  }
+  #row2 {
+    padding: 0 !important;
+    width: 100%;
+    margin: 0 auto;
+  }
 }
 
 @media only screen and (max-width: 768px) {
