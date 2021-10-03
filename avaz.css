@@ -305,8 +305,22 @@ _____MUSIC PAGE________
 }
 
 @media only screen and (max-width: 500px) {
+  .music_body {
+    background-image: url("images/Music/music-content-soon.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    padding-top: 50%;
+  }
+  #footer-music {
+    background-color: transparent;
+    padding-top: 100%;
+  }
   #oceanwaves-video {
-    opacity: 0;
+    display: none;
+  }
+  #main-music {
+    margin-top: 80%;
   }
 }
 
