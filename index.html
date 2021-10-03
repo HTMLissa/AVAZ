@@ -116,16 +116,17 @@
         </nav>
 
         <!-- Video -->
-        <video
-          autoplay
-          loop
-          muted
-          src="videos/avaz_sinner.mp4"
-          type="video/mov"
-          playsinline
-          preload="auto"
-        ></video>
-        <!-- <iframe src="videos/avaz_sinner.mp4" ></iframe> -->
+        <div id="videodiv">
+          <!-- <video
+            autoplay
+            loop
+            muted
+            src="videos/avaz_sinner.mp4"
+            type="video/mov"
+            playsinline
+            preload="auto"
+          ></video> -->
+        </div>
       </div>
     </header>
 
@@ -213,3 +214,17 @@
     </script>
   </body>
 </html>
+<script>
+  window.onload = function () {
+    let video = document.getElementById("videodiv");
+    video.innerHTML = `<video
+            autoplay
+            loop
+            muted
+            src="videos/avaz_sinner.mp4"
+            type="video/mov"
+            playsinline
+            preload="auto"
+          ></video>`;
+  };
+</script>
