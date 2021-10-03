@@ -306,10 +306,7 @@ _____MUSIC PAGE________
 
 @media only screen and (max-width: 500px) {
   #oceanwaves-video {
-    opacity: 0.4;
-  }
-  #main-music {
-    top: 30%;
+    opacity: 0;
   }
 }
 
